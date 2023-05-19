@@ -2,7 +2,7 @@
 
 ## Depolyed Application
 
-View the depolyed application here ----> ![Password-Generator](https://lone1ne.github.io/Password-Generator/)
+View the depolyed application here ----> [Password-Generator](https://lone1ne.github.io/Password-Generator/)
 
 ## Description
 
