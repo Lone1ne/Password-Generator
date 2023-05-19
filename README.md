@@ -2,11 +2,11 @@
 
 ## Depolyed Application
 
-View the depolyed application here ---->
+View the depolyed application here ----> ![Password-Generator](https://lone1ne.github.io/Password-Generator/)
 
 ## Description
 
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+This application enables employees to generate random passwords based on criteria that they’ve selected. This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code. It has a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
 ## User Story
 
@@ -41,5 +41,3 @@ THEN the password is either displayed in an alert or written to the page
 The following image shows the web application's appearance and functionality:
 
 ![The Password Generator application displays a red button to "Generate Password".](./Assets/images/03-javascript-homework-demo.png)
-
-- Repository contains quality readme file with description, screenshot, and link to deployed application.
