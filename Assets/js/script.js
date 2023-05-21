@@ -1,7 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-// Declare generatepasswrod function and declare varibles of possible characters
+// Declare generatepassword function and declare varibles of possible characters
 function generatePassword() {
   var lowerCaseCharacters = "abcdefghijklomnpqrstuvwxyz";
   var upperCaseCharacters = lowerCaseCharacters.toUpperCase();
@@ -42,35 +42,23 @@ function generatePassword() {
     special = confirm("Would you like to include special characters?");
   }
 
-  // declare var for password and add random characters to password string
+  // Declare var for password and add random possible characters to password string
   var password = "";
 
   if (lowercase) {
     possibleCharacters += lowerCaseCharacters;
-    password +=
-      lowerCaseCharacters[
-        Math.floor(Math.random() * lowerCaseCharacters.length)
-      ];
   }
   if (uppercase) {
     possibleCharacters += upperCaseCharacters;
-    password +=
-      upperCaseCharacters[
-        Math.floor(Math.random() * upperCaseCharacters.length)
-      ];
   }
   if (number) {
     possibleCharacters += numericCharacters;
-    password +=
-      numericCharacters[Math.floor(Math.random() * numericCharacters.length)];
   }
   if (special) {
     possibleCharacters += specialCharacters;
-    password +=
-      specialCharacters[Math.floor(Math.random() * specialCharacters.length)];
   }
 
-  for (i = 0; i < characterCount; i++) {
+  for (var i = 0; i < characterCount; i++) {
     var randomIndex = Math.floor(Math.random() * possibleCharacters.length);
     password += possibleCharacters[randomIndex];
   }
