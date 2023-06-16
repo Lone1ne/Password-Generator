@@ -6,7 +6,7 @@ View the depolyed application here ----> [Password-Generator](https://lone1ne.gi
 
 ## Description
 
-This application enables employees to generate random passwords based on criteria that they’ve selected. This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code. It has a clean and polished, responsive user interface that adapts to multiple screen sizes.
+This application enables users to generate random passwords based on criteria that they’ve selected. This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code. It has a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
 ## User Story
 
